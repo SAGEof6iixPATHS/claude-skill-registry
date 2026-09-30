@@ -1,47 +1,47 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T05:31:47.107308Z",
+  "updated_at": "2026-09-30T08:42:02.918140Z",
   "archive_skill_md_count_raw": 203744,
   "archive_metadata_count_raw": 203742,
-  "indexed_skill_count_scan_shape": 162801,
-  "registry_skill_count_dedup": 162369,
+  "indexed_skill_count_scan_shape": 161015,
+  "registry_skill_count_dedup": 160583,
   "total_plugins": 4,
   "categories": 40,
   "category_counts": [
     {
       "name": "agent",
       "code": "agent",
-      "count": 1181
+      "count": 1155
     },
     {
       "name": "ai-llm",
       "code": "ai-llm",
-      "count": 1751
+      "count": 1738
     },
     {
       "name": "ai-ml",
       "code": "ai-ml",
-      "count": 1667
+      "count": 1679
     },
     {
       "name": "analysis",
       "code": "analysis",
-      "count": 3168
+      "count": 3197
     },
     {
       "name": "api",
       "code": "api",
-      "count": 850
+      "count": 855
     },
     {
       "name": "bash",
       "code": "bash",
-      "count": 625
+      "count": 626
     },
     {
       "name": "business",
       "code": "business",
-      "count": 841
+      "count": 839
     },
     {
       "name": "c-level",
@@ -51,165 +51,165 @@
     {
       "name": "communication",
       "code": "communication",
-      "count": 491
+      "count": 504
     },
     {
       "name": "context-management",
       "code": "context-management",
-      "count": 1063
+      "count": 1062
     },
     {
       "name": "creative",
       "code": "creative",
-      "count": 605
+      "count": 601
     },
     {
       "name": "data",
       "code": "dat",
-      "count": 30676
+      "count": 30552
     },
     {
       "name": "design",
       "code": "des",
-      "count": 10450
+      "count": 10390
     },
     {
       "name": "development",
       "code": "dev",
-      "count": 37038
+      "count": 36142
     },
     {
       "name": "devops",
       "code": "ops",
-      "count": 8364
+      "count": 8256
     },
     {
       "name": "documents",
       "code": "doc",
-      "count": 6283
+      "count": 6213
     },
     {
       "name": "domains",
       "code": "domains",
-      "count": 3108
+      "count": 3065
     },
     {
       "name": "examples",
       "code": "examples",
-      "count": 169
+      "count": 165
     },
     {
       "name": "forensics",
       "code": "forensics",
-      "count": 139
+      "count": 138
     },
     {
       "name": "gaming",
       "code": "gaming",
-      "count": 881
+      "count": 877
     },
     {
       "name": "generation",
       "code": "generation",
-      "count": 1446
+      "count": 1432
     },
     {
       "name": "integration",
       "code": "integration",
-      "count": 6304
+      "count": 6257
     },
     {
       "name": "language",
       "code": "language",
-      "count": 172
+      "count": 167
     },
     {
       "name": "local-ai-infrastructure",
       "code": "local-ai-infrastructure",
-      "count": 97
+      "count": 95
     },
     {
       "name": "marketing",
       "code": "mkt",
-      "count": 3555
+      "count": 3544
     },
     {
       "name": "orchestration",
       "code": "orchestration",
-      "count": 2594
+      "count": 2559
     },
     {
       "name": "other",
       "code": "oth",
-      "count": 3923
+      "count": 3919
     },
     {
       "name": "performance",
       "code": "performance",
-      "count": 1089
+      "count": 1078
     },
     {
       "name": "personal-development",
       "code": "personal-development",
-      "count": 709
+      "count": 695
     },
     {
       "name": "planning",
       "code": "planning",
-      "count": 1702
+      "count": 1691
     },
     {
       "name": "platform",
       "code": "platform",
-      "count": 901
+      "count": 887
     },
     {
       "name": "product",
       "code": "prd",
-      "count": 3123
+      "count": 3103
     },
     {
       "name": "productivity",
       "code": "pro",
-      "count": 2338
+      "count": 2312
     },
     {
       "name": "quality",
       "code": "quality",
-      "count": 4304
+      "count": 4267
     },
     {
       "name": "security",
       "code": "sec",
-      "count": 4653
+      "count": 4597
     },
     {
       "name": "skills",
       "code": "skills",
-      "count": 2536
+      "count": 2498
     },
     {
       "name": "system",
       "code": "system",
-      "count": 357
+      "count": 348
     },
     {
       "name": "testing",
       "code": "tst",
-      "count": 8858
+      "count": 8764
     },
     {
       "name": "workflow",
       "code": "workflow",
-      "count": 3560
+      "count": 3522
     },
     {
       "name": "writing",
       "code": "writing",
-      "count": 1182
+      "count": 1178
     }
   ],
-  "unique_repo_count": 9881,
+  "unique_repo_count": 9879,
   "official_skill_count": 0,
   "top_repositories": [
     {
@@ -219,10 +219,6 @@
     {
       "repo": "sickn33/antigravity-awesome-skills",
       "count": 1624
-    },
-    {
-      "repo": "majiayu000/claude-skill-registry",
-      "count": 1592
     },
     {
       "repo": "a5c-ai/babysitter",
@@ -251,39 +247,45 @@
     {
       "repo": "TheBushidoCollective/han",
       "count": 673
+    },
+    {
+      "repo": "melodic-software/claude-code-plugins",
+      "count": 648
     }
   ],
   "featured_count": 100,
+  "independent_skill_count": 99041,
+  "static_skill_page_count": 5800,
   "asset_state_counts": {},
   "asset_liveness_counts": {},
   "index_size_bytes": 324,
-  "index_size_gzip_bytes": 243,
+  "index_size_gzip_bytes": 245,
   "search_shard_count": 5,
-  "search_largest_shard_bytes": 8388673,
-  "search_largest_shard_gzip_bytes": 1428853,
-  "category_shard_count": 45,
-  "category_largest_part_bytes": 8388697,
-  "category_largest_part_gzip_bytes": 1806337,
-  "lite_index_count": 162801,
+  "search_largest_shard_bytes": 8388600,
+  "search_largest_shard_gzip_bytes": 1500203,
+  "category_shard_count": 46,
+  "category_largest_part_bytes": 8388418,
+  "category_largest_part_gzip_bytes": 2060345,
+  "lite_index_count": 161015,
   "lite_index_included_count": 5000,
-  "lite_index_size_bytes": 3821438,
-  "lite_index_gzip_size_bytes": 718508,
+  "lite_index_size_bytes": 3840801,
+  "lite_index_gzip_size_bytes": 728519,
   "quality_index_size_bytes": 364,
-  "quality_index_gzip_size_bytes": 269,
+  "quality_index_gzip_size_bytes": 270,
   "quality_shard_count": 6,
-  "quality_largest_shard_bytes": 8388611,
-  "quality_largest_shard_gzip_bytes": 1762393,
+  "quality_largest_shard_bytes": 8388657,
+  "quality_largest_shard_gzip_bytes": 1770363,
   "security_index_size_bytes": 368,
   "security_index_gzip_size_bytes": 272,
-  "security_shard_count": 20,
-  "security_largest_shard_bytes": 8388713,
-  "security_largest_shard_gzip_bytes": 1587908,
+  "security_shard_count": 19,
+  "security_largest_shard_bytes": 8388707,
+  "security_largest_shard_gzip_bytes": 1588187,
   "ranking_index_size_bytes": 364,
-  "ranking_index_gzip_size_bytes": 269,
+  "ranking_index_gzip_size_bytes": 271,
   "ranking_shard_count": 5,
-  "ranking_largest_shard_bytes": 8388622,
-  "ranking_largest_shard_gzip_bytes": 1986941,
-  "largest_generated_file_bytes": 8388713,
+  "ranking_largest_shard_bytes": 8388642,
+  "ranking_largest_shard_gzip_bytes": 1987646,
+  "largest_generated_file_bytes": 8388707,
   "security_scan": {
     "total": 203742,
     "passed": 203742,

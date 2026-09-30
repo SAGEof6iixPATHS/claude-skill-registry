@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T05:31:46.870933Z",
+  "updated_at": "2026-09-30T08:42:02.649057Z",
   "count": 100,
   "skills": [
     {
       "name": "fix",
       "description": "Use when you have lint errors, formatting issues, or before committing code to ensure it passes CI.",
+      "content_fingerprint": "0f2ef34701bf6394c2f7c06f8f200de0983cce9ce0abf554da1d8d71f533f73d",
+      "license": "",
+      "author": "",
       "repo": "facebook/react",
       "path": ".claude/skills/fix/SKILL.md",
       "branch": "main",
@@ -23,11 +26,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/fix-daf59ec13873/"
     },
     {
       "name": "create-pr-n8n-io-n8n",
       "description": "Creates GitHub pull requests with properly formatted titles that pass the check-pr-title CI validation. Use when creating PRs, submitting changes for review, or when the user says /pr or asks to creat",
+      "content_fingerprint": "f9ec5e80648431a41c191858250d3f063d842cf76f1e1bfb5fc47954e6447778",
+      "license": "",
+      "author": "",
       "repo": "n8n-io/n8n",
       "path": ".claude/skills/create-pr/SKILL.md",
       "branch": "main",
@@ -50,6 +57,9 @@
     {
       "name": "update-docs",
       "description": "This skill should be used when the user asks to \"update documentation for my changes\", \"check docs for this PR\", \"what docs need updating\", \"sync docs with code\", \"scaffold docs for this feature\", \"do",
+      "content_fingerprint": "a8417ccb65b913a35235be1d555c8459a3df41f101e8f357d9dc3e99d0243c6d",
+      "license": "",
+      "author": "",
       "repo": "vercel/next.js",
       "path": ".claude/skills/update-docs/SKILL.md",
       "branch": "main",
@@ -67,11 +77,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/update-docs-007e3d85a2cf/"
     },
     {
       "name": "frontend-testing-langgenius-dify",
       "description": "Generate Vitest + React Testing Library tests for Dify frontend components, hooks, and utilities. Triggers on testing, spec files, coverage, Vitest, RTL, unit tests, integration tests, or write/review",
+      "content_fingerprint": "68b30e709119535901f3589cd750def8203fdb9522af26b4dfa8c80257b50a75",
+      "license": "",
+      "author": "",
       "repo": "langgenius/dify",
       "path": ".agents/skills/frontend-testing/SKILL.md",
       "branch": "main",
@@ -94,6 +108,9 @@
     {
       "name": "skill-creator-langgenius-dify",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workfl",
+      "content_fingerprint": "633184319ea23f8e6924216c03eb59625065050445bc5802dbc01bbb5c52ad06",
+      "license": "",
+      "author": "",
       "repo": "langgenius/dify",
       "path": ".agents/skills/skill-creator/SKILL.md",
       "branch": "main",
@@ -116,6 +133,9 @@
     {
       "name": "electron-chromium-upgrade",
       "description": "Guide for performing Chromium version upgrades in the Electron project. Use when working on the roller/chromium/main branch to fix patch conflicts during `e sync --3`. Covers the patch application wor",
+      "content_fingerprint": "28a0a2a1996ffb9cd43b8dc6279b350f6820abeeb616530337452fba95ad99b1",
+      "license": "MIT",
+      "author": "electron",
       "repo": "electron/electron",
       "path": ".claude/skills/electron-chromium-upgrade/SKILL.md",
       "branch": "main",
@@ -133,11 +153,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/electron-chromium-upgrade-b7f074d82bf5/"
     },
     {
       "name": "docstring",
       "description": "Write docstrings for PyTorch functions and methods following PyTorch conventions. Use when writing or updating docstrings in PyTorch code.",
+      "content_fingerprint": "a8fbc67d6b37b474611d2f02799f64ba4f2816edcd6469d3ec28c3c3a468ed5b",
+      "license": "NOASSERTION",
+      "author": "pytorch",
       "repo": "pytorch/pytorch",
       "path": ".claude/skills/docstring/SKILL.md",
       "branch": "main",
@@ -155,11 +179,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/docstring-165b79b30123/"
     },
     {
       "name": "add-uint-support",
       "description": "Add unsigned integer (uint) type support to PyTorch operators by updating AT_DISPATCH macros. Use when adding support for uint16, uint32, uint64 types to operators, kernels, or when user mentions enab",
+      "content_fingerprint": "89242a003b8a81830e12360da1ffdb37e0bf7aa53151492af367318ea3d9c5d1",
+      "license": "NOASSERTION",
+      "author": "pytorch",
       "repo": "pytorch/pytorch",
       "path": ".claude/skills/add-uint-support",
       "branch": "main",
@@ -181,11 +209,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/add-uint-support-2dcef1ffca8a/"
     },
     {
       "name": "at-dispatch-v2",
       "description": "Convert PyTorch AT_DISPATCH macros to AT_DISPATCH_V2 format in ATen C++ code. Use when porting AT_DISPATCH_ALL_TYPES_AND*, AT_DISPATCH_FLOATING_TYPES*, or other dispatch macros to the new v2 API. For",
+      "content_fingerprint": "1ef0e42539a8de3760012cba406e58f2feb0b24a5428562ac8ae18cc100b82df",
+      "license": "NOASSERTION",
+      "author": "pytorch",
       "repo": "pytorch/pytorch",
       "path": ".claude/skills/at-dispatch-v2",
       "branch": "main",
@@ -205,11 +237,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/at-dispatch-v2-041f886c82c5/"
     },
     {
       "name": "skill-writer",
       "description": "Guide users through creating Agent Skills for Claude Code. Use when the user wants to create, write, author, or design a new Skill, or needs help with SKILL.md files, frontmatter, or skill structure.",
+      "content_fingerprint": "ae6e45f9ddc83f5cdf165b8403fbd6b91f9a6fda22c9bb28e52fe37a37d3f736",
+      "license": "NOASSERTION",
+      "author": "pytorch",
       "repo": "pytorch/pytorch",
       "path": ".claude/skills/skill-writer",
       "branch": "main",
@@ -230,11 +266,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/skill-writer-7322c25a708e/"
     },
     {
       "name": "home-assistant-integration-knowledge",
       "description": "Everything you need to know to build, test and review Home Assistant Integrations. If you're looking at an integration, you must use this as your primary reference.",
+      "content_fingerprint": "24db80a91da847a5d0eb26f95c71876da5a699c12fb5f9aa2044fd4553c453ec",
+      "license": "",
+      "author": "",
       "repo": "home-assistant/core",
       "path": ".claude/skills/integrations/SKILL.md",
       "branch": "main",
@@ -252,11 +292,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/home-assistant-integration-knowledge-6432289d0e2b/"
     },
     {
       "name": "browser-use-browser-use-browser-use",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or",
+      "content_fingerprint": "596c0d4b3b70702f870dc3dcf285235ccc81c535ecc6309aae65ce10f54ed9df",
+      "license": "",
+      "author": "",
       "repo": "browser-use/browser-use",
       "path": "skills/browser-use/SKILL.md",
       "branch": "main",
@@ -277,6 +321,9 @@
     {
       "name": "concept-workflow",
       "description": "End-to-end workflow for creating complete JavaScript concept documentation, orchestrating all skills from research to final review",
+      "content_fingerprint": "df23a88251afc2a0bd68438fdb17cf428e98a359da55cc18264a83bc77e0d02d",
+      "license": "MIT",
+      "author": "leonardomso",
       "repo": "leonardomso/33-js-concepts",
       "path": ".claude/skills/concept-workflow/SKILL.md",
       "branch": "main",
@@ -299,6 +346,9 @@
     {
       "name": "fact-check",
       "description": "Verify technical accuracy of JavaScript concept pages by checking code examples, MDN/ECMAScript compliance, and external resources to prevent misinformation",
+      "content_fingerprint": "9e83653369f957c75605bc12fffd8a0cd01455e9b316ddb4bd2c7d6e78d6bc62",
+      "license": "MIT",
+      "author": "leonardomso",
       "repo": "leonardomso/33-js-concepts",
       "path": ".claude/skills/fact-check/SKILL.md",
       "branch": "main",
@@ -321,6 +371,9 @@
     {
       "name": "resource-curator",
       "description": "Find, evaluate, and maintain high-quality external resources for JavaScript concept documentation, including auditing for broken and outdated links",
+      "content_fingerprint": "644b83c0408ca2e37555a9b76e62982aa7d31df712d59df9d3d4bb69b32b6ba2",
+      "license": "MIT",
+      "author": "leonardomso",
       "repo": "leonardomso/33-js-concepts",
       "path": ".claude/skills/resource-curator/SKILL.md",
       "branch": "main",
@@ -343,6 +396,9 @@
     {
       "name": "seo-review",
       "description": "Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential",
+      "content_fingerprint": "d4337240ee62497260f2d68ba6a07fa79dae5f1f71e01c9bcf640d88c2303652",
+      "license": "MIT",
+      "author": "leonardomso",
       "repo": "leonardomso/33-js-concepts",
       "path": ".claude/skills/seo-review/SKILL.md",
       "branch": "main",
@@ -360,11 +416,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/seo-review-3f7776a9ed14/"
     },
     {
       "name": "write-concept",
       "description": "Write or review JavaScript concept documentation pages for the 33 JavaScript Concepts project, following strict structure and quality guidelines",
+      "content_fingerprint": "ecffc95e62f47df37636381cc84249d20be015ad1692e7d46e28a117cb47dbf6",
+      "license": "MIT",
+      "author": "leonardomso",
       "repo": "leonardomso/33-js-concepts",
       "path": ".claude/skills/write-concept/SKILL.md",
       "branch": "main",
@@ -382,11 +442,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/write-concept-8901216673c9/"
     },
     {
       "name": "claude-opus-4-5-migration",
       "description": "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string upda",
+      "content_fingerprint": "9209c8605ae4a00af85893f743f6758ab69ab8de7f6b4ff15ad1aaede800a815",
+      "license": "",
+      "author": "",
       "repo": "anthropics/claude-code",
       "path": "plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md",
       "branch": "main",
@@ -404,11 +468,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/claude-opus-4-5-migration-cc75ddc14125/"
     },
     {
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflo",
+      "content_fingerprint": "72653aa155fabb43187d6f9e5827b64cd8314a233e2af9a08110a3b1d3bb22ab",
+      "license": "",
+      "author": "",
       "repo": "openai/codex",
       "path": "codex-rs/core/src/skills/assets/samples/skill-creator",
       "branch": "main",
@@ -430,11 +498,15 @@
       "compatible_agents": [
         "Claude Code",
         "Codex CLI"
-      ]
+      ],
+      "u": "skills/skill-creator-efe5cd29f4b3/"
     },
     {
       "name": "add-admin-api-endpoint",
       "description": "Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`.",
+      "content_fingerprint": "330deca168b970258ed3779d4771fd57261069f6df34b289388f4976ad1d0b29",
+      "license": "MIT",
+      "author": "TryGhost",
       "repo": "TryGhost/Ghost",
       "path": ".claude/skills/add-admin-api-endpoint/SKILL.md",
       "branch": "main",
@@ -452,11 +524,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/add-admin-api-endpoint-896036ddd0d3/"
     },
     {
       "name": "create-database-migration-tryghost-ghost",
       "description": "Create a database migration to add a table, add columns to an existing table, add a setting, or otherwise change the schema of Ghost's MySQL database.",
+      "content_fingerprint": "d834b5be79cb233d70a4b1102a34895d5dfe77069cdff10378e27e92c44e2bcc",
+      "license": "MIT",
+      "author": "TryGhost",
       "repo": "TryGhost/Ghost",
       "path": ".claude/skills/create-database-migration/SKILL.md",
       "branch": "main",
@@ -479,6 +555,9 @@
     {
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code",
+      "content_fingerprint": "277aacd0bc204147c81d7c142e8e77f0c95924418d8bc046ce7acea8814cddc4",
+      "license": "",
+      "author": "",
       "repo": "anthropics/claude-code",
       "path": "plugins/frontend-design/skills/frontend-design",
       "branch": "main",
@@ -499,11 +578,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/frontend-design-07b9be2d3e96/"
     },
     {
       "name": "unknown",
       "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+      "content_fingerprint": "079794af8b8b44c6de3ac8729a074eaa7156a57dde459eaa467a234e3778e282",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/add-malli-schemas/SKILL.md",
       "branch": "master",
@@ -526,6 +609,9 @@
     {
       "name": "analytics-events",
       "description": "Add product analytics events to track user interactions in the Metabase frontend",
+      "content_fingerprint": "6349dfdcdcae057d39c6f999c60cfe6f69a616fcfe4c45f6f77834041188151c",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/analytics-events/SKILL.md",
       "branch": "main",
@@ -548,6 +634,9 @@
     {
       "name": "unknown",
       "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+      "content_fingerprint": "ceea9e36be1f451e8bdb7ebf6bdf41278d003891276ebeea56308ff764970064",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/clojure-write/SKILL.md",
       "branch": "master",
@@ -570,6 +659,9 @@
     {
       "name": "unknown",
       "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+      "content_fingerprint": "d9c561c730679e74b1b83cd64b11a9e0ba9687d3b8537e95fef80eb585edbaea",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/docs-review/SKILL.md",
       "branch": "master",
@@ -592,6 +684,9 @@
     {
       "name": "unknown",
       "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+      "content_fingerprint": "250d6656724d03cfd86467bdd89229d260c673f85b1cb742701e02e8dfb3a571",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/docs-write/SKILL.md",
       "branch": "master",
@@ -614,6 +709,9 @@
     {
       "name": "unknown",
       "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+      "content_fingerprint": "990422e7903b6d619188baad42513659ea246df5dc940b94a79581907ac20d46",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/typescript-review/SKILL.md",
       "branch": "master",
@@ -636,6 +734,9 @@
     {
       "name": "typescript-write",
       "description": "Write TypeScript and JavaScript code following Metabase coding standards and best practices. Use when developing or refactoring TypeScript/JavaScript code.",
+      "content_fingerprint": "c448a59559288b77160d0d6a42f0965c2c4e08e5d1b6f5a11726be0483df629f",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/typescript-write/SKILL.md",
       "branch": "main",
@@ -653,11 +754,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/typescript-write-e3a73bff70c1/"
     },
     {
       "name": "skill-creator-tldraw-tldraw",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workfl",
+      "content_fingerprint": "99566942dfee00b38c7810d8eb21aa45b28ad06ff299c1830678f21872feb5b4",
+      "license": "",
+      "author": "",
       "repo": "tldraw/tldraw",
       "path": ".claude/skills/skill-creator/SKILL.md",
       "branch": "main",
@@ -680,6 +785,9 @@
     {
       "name": "write-issue",
       "description": "Writing and maintaining GitHub issues for the tldraw repository. Use when creating new issues, editing issue titles/bodies, triaging issues, or cleaning up issue metadata (types, labels).",
+      "content_fingerprint": "5f1a088aa9f0874fb73a5f18d8e08951d19891bfe63adb7be169fafd4427251f",
+      "license": "",
+      "author": "",
       "repo": "tldraw/tldraw",
       "path": ".claude/skills/write-issue/SKILL.md",
       "branch": "main",
@@ -702,6 +810,9 @@
     {
       "name": "clojure-review",
       "description": "Review Clojure and ClojureScript code changes for compliance with Metabase coding standards, style violations, and code quality issues. Use when reviewing pull requests or diffs containing Clojure/Clo",
+      "content_fingerprint": "e80aed0ea022e292b63eb0c6a1a695c4230796018425fb50c14264d02edcc370",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/clojure-review",
       "branch": "master",
@@ -722,11 +833,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/clojure-review-5c4c5585310f/"
     },
     {
       "name": "clojure-write",
       "description": "Guide Clojure and ClojureScript development using REPL-driven workflow, coding conventions, and best practices. Use when writing, developing, or refactoring Clojure/ClojureScript code.",
+      "content_fingerprint": "ceea9e36be1f451e8bdb7ebf6bdf41278d003891276ebeea56308ff764970064",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/clojure-write",
       "branch": "master",
@@ -747,11 +862,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/clojure-write-8a6dc67ae8dd/"
     },
     {
       "name": "docs-review",
       "description": "Review documentation changes for compliance with the Metabase writing style guide. Use when reviewing pull requests, files, or diffs containing documentation markdown files.",
+      "content_fingerprint": "d9c561c730679e74b1b83cd64b11a9e0ba9687d3b8537e95fef80eb585edbaea",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/docs-review",
       "branch": "master",
@@ -772,11 +891,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/docs-review-2fbdc02d818a/"
     },
     {
       "name": "docs-write",
       "description": "Write documentation following Metabase's conversational, clear, and user-focused style. Use when creating or editing documentation files (markdown, MDX, etc.).",
+      "content_fingerprint": "fc3030bb05ad79240f76081fb21d504a36c102f8f494e6db9e4cabb684f0d8ad",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/docs-write",
       "branch": "master",
@@ -797,11 +920,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/docs-write-6ab7e6f6484d/"
     },
     {
       "name": "typescript-review",
       "description": "Review TypeScript and JavaScript code changes for compliance with Metabase coding standards, style violations, and code quality issues. Use when reviewing pull requests or diffs containing TypeScript/",
+      "content_fingerprint": "501eeb11fa1b4adb3068433e937ae94b77de3542aca5e446c1348fa206d30e88",
+      "license": "NOASSERTION",
+      "author": "metabase",
       "repo": "metabase/metabase",
       "path": ".claude/skills/typescript-review",
       "branch": "master",
@@ -822,11 +949,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/typescript-review-f934235414a0/"
     },
     {
       "name": "git-workflow",
       "description": "Git workflow guidance for commits, branches, and pull requests",
+      "content_fingerprint": "6f4830ab3d95033192f071c9f34ea7337f94dd9c5a13f10cd15655e3c7fd4b61",
+      "license": "",
+      "author": "",
       "repo": "agno-agi/agno",
       "path": "cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md",
       "branch": "main",
@@ -844,11 +975,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/git-workflow-8b6085c1e646/"
     },
     {
       "name": "unknown",
       "description": "An agentic skills framework & software development methodology that works.",
+      "content_fingerprint": "97e125b4bc798e483a796d3f1828318bbdb52e52cc890b35ed4e403fd6ddf274",
+      "license": "NOASSERTION",
+      "author": "obra",
       "repo": "obra/superpowers",
       "path": "skills/using-superpowers/SKILL.md",
       "branch": "main",
@@ -869,6 +1004,9 @@
     {
       "name": "api-ref-doc",
       "description": "You are an expert technical writer specializing in API documentation for the Medusa ecommerce platform.",
+      "content_fingerprint": "44fba530378a02980c3dfef96f1ff80d81aa4d1783099d34abe9b7a41a4d568d",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/api-ref-doc/SKILL.md",
       "branch": "main",
@@ -891,6 +1029,9 @@
     {
       "name": "book-doc",
       "description": "You are an expert technical writer specializing in developer learning documentation for the Medusa ecommerce platform.",
+      "content_fingerprint": "e2cc2505ca708b4950486143375a3afa518d84be5e9a9cefd5a45504347a6e5d",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/book-doc/SKILL.md",
       "branch": "main",
@@ -913,6 +1054,9 @@
     {
       "name": "how-to",
       "description": "You are an expert technical writer specializing in focused, task-oriented how-to guides for the Medusa ecommerce platform.",
+      "content_fingerprint": "3723ccd03ccfe03489794f1d80bc9ecc1cbab92841f26ab277f138b0d82aa0b8",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/how-to/SKILL.md",
       "branch": "main",
@@ -935,6 +1079,9 @@
     {
       "name": "recipe",
       "description": "You are an expert technical writer specializing in architectural pattern documentation for the Medusa ecommerce platform.",
+      "content_fingerprint": "8a2420b57846b702548a1a2cf28b6c16069db932b9f15ac32c17df52e85d8a2c",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/recipe/SKILL.md",
       "branch": "main",
@@ -957,6 +1104,9 @@
     {
       "name": "resources-doc",
       "description": "You are an expert technical writer specializing in reference documentation for the Medusa ecommerce platform.",
+      "content_fingerprint": "45d66062cec9a590ffd2abfbbf07b0e65c917c06b16fecf71024d6811dda92c7",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/resources-doc/SKILL.md",
       "branch": "main",
@@ -979,6 +1129,9 @@
     {
       "name": "tutorial",
       "description": "You are an expert technical writer specializing in comprehensive, multi-step tutorials for the Medusa ecommerce platform.",
+      "content_fingerprint": "198cebf5902d1f92e6dd5232b0ad7826fc8dff6b3f9b1fc475903a9bba390a55",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/tutorial/SKILL.md",
       "branch": "main",
@@ -1001,6 +1154,9 @@
     {
       "name": "ui-component-doc",
       "description": "You are an expert technical writer specializing in UI component library documentation for the Medusa UI design system.",
+      "content_fingerprint": "a0fd10bf9cb1a226014c2c8641f6c8727eba6279f1e8b31112c48bcf30d8c6c6",
+      "license": "",
+      "author": "",
       "repo": "medusajs/medusa",
       "path": ".claude/skills/ui-component-doc/SKILL.md",
       "branch": "main",
@@ -1023,6 +1179,9 @@
     {
       "name": "commit-helper",
       "description": "Help create git commits and PRs with properly formatted messages and release notes following CockroachDB conventions. Use when committing changes or creating pull requests.",
+      "content_fingerprint": "510af2e3d951001ab46b005c7a168478f68680b65099f8482568ecc3b3a32ad1",
+      "license": "NOASSERTION",
+      "author": "cockroachdb",
       "repo": "cockroachdb/cockroach",
       "path": ".claude/skills/commit-helper/SKILL.md",
       "branch": "main",
@@ -1045,6 +1204,9 @@
     {
       "name": "cookbook-audit-anthropics-claude-cookbooks",
       "description": "Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook review or audit is requested.",
+      "content_fingerprint": "0ab2cdc5500d32fed1584f38a8d253de2509cc89ff383a328753fd8dbdb45481",
+      "license": "MIT",
+      "author": "anthropics",
       "repo": "anthropics/claude-cookbooks",
       "path": ".claude/skills/cookbook-audit/SKILL.md",
       "branch": "main",
@@ -1067,6 +1229,9 @@
     {
       "name": "applying-brand-guidelines",
       "description": "This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging",
+      "content_fingerprint": "4e82c5c3920af6cfc1f552fba0a129856da09cf6f021e458b7579ec27b8284cd",
+      "license": "MIT",
+      "author": "anthropics",
       "repo": "anthropics/claude-cookbooks",
       "path": "skills/custom_skills/applying-brand-guidelines/SKILL.md",
       "branch": "main",
@@ -1084,11 +1249,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/applying-brand-guidelines-63a99b57de16/"
     },
     {
       "name": "turborepo",
-      "description": "|",
+      "description": "Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines, dependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment variables, inte",
+      "content_fingerprint": "0313d94551f18ae41f5463388d073d753ad489e55ae8b069226c4a1888e36577",
+      "license": "",
+      "author": "",
       "repo": "vercel/turborepo",
       "path": "skills/turborepo/SKILL.md",
       "branch": "main",
@@ -1099,16 +1268,20 @@
       "source": "github.com/vercel/turborepo",
       "id": "zn-gxiejg94veltg9ywml1hhbriqtapxtunkw_zjhpi",
       "owner": "vercel",
-      "quality_grade": "A",
-      "quality_score": 74,
+      "quality_grade": "S",
+      "quality_score": 90,
       "security_status": "passed",
       "install_status": "known_good",
       "trust_score": 100,
-      "compatible_agents": []
+      "compatible_agents": [],
+      "u": "skills/turborepo-23817544c2b8/"
     },
     {
       "name": "make-pr",
       "description": "Open a pull request for the current feature",
+      "content_fingerprint": "9b39819df6ce9d9eb71b4313952f89a516485157d8b920aeea950265bb57e9c0",
+      "license": "NOASSERTION",
+      "author": "remotion-dev",
       "repo": "remotion-dev/remotion",
       "path": ".claude/skills/pr/SKILL.md",
       "branch": "main",
@@ -1131,6 +1304,9 @@
     {
       "name": "writing-docs",
       "description": "Guides for writing and editing Remotion documentation. Use when adding docs pages, editing MDX files in packages/docs, or writing documentation content.",
+      "content_fingerprint": "4d7847b9160e2bb7e0bf09183cd02673c5c3d48ba31c0d8f8943a03e388fe41f",
+      "license": "NOASSERTION",
+      "author": "remotion-dev",
       "repo": "remotion-dev/remotion",
       "path": ".claude/skills/writing-docs/SKILL.md",
       "branch": "main",
@@ -1153,6 +1329,9 @@
     {
       "name": "unknown",
       "description": "Get to green PRs in half the time. Nx optimizes your builds, scales your CI, and fixes failed PRs. Built for developers and AI agents.",
+      "content_fingerprint": "6d672b88fa8e283ebcc9a0c38cb5592d57329ce4ef4d97352d5fecdf726586d4",
+      "license": "NOASSERTION",
+      "author": "nrwl",
       "repo": "nrwl/nx",
       "path": ".claude/skills/run-nx-generator/SKILL.md",
       "branch": "master",
@@ -1175,6 +1354,9 @@
     {
       "name": "run-nx-generator",
       "description": "Run Nx generators with prioritization for workspace-plugin generators. Use this when generating code, scaffolding new features, or automating repetitive tasks in the monorepo.",
+      "content_fingerprint": "6d672b88fa8e283ebcc9a0c38cb5592d57329ce4ef4d97352d5fecdf726586d4",
+      "license": "",
+      "author": "",
       "repo": "nrwl/nx",
       "path": ".claude/skills/run-nx-generator",
       "branch": "master",
@@ -1195,11 +1377,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/run-nx-generator-f1aec690e652/"
     },
     {
       "name": "rag-implementation",
       "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integr",
+      "content_fingerprint": "da7eecd2cb980008f9cfadea1d687016e2745b5d62d9021bb4027147fa099b8e",
+      "license": "",
+      "author": "",
       "repo": "wshobson/agents",
       "path": "plugins/llm-application-dev/skills/rag-implementation/SKILL.md",
       "branch": "main",
@@ -1217,11 +1403,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/rag-implementation-f98368687d4f/"
     },
     {
       "name": "create-skill-file",
       "description": "Guides Claude in creating well-structured SKILL.md files following best practices. Provides clear guidelines for naming, structure, and content organization to make skills easy to discover and execute",
+      "content_fingerprint": "32892c8e7dcda330172595cc59c6e1920406d05d8fff8877b6feb60ba26ce5da",
+      "license": "NOASSERTION",
+      "author": "labring",
       "repo": "labring/FastGPT",
       "path": ".claude/skills/create-skill-file",
       "branch": "main",
@@ -1248,6 +1438,9 @@
     {
       "name": "category",
       "description": "- 请说说使用iconfont图标的优点和缺点",
+      "content_fingerprint": "696ea3adc20ffaa5acffef176f4b4b7fe44548b5d075de0058c5bcf7a13b95c7",
+      "license": "",
+      "author": "",
       "repo": "haizlin/fe-interview",
       "path": "category/skill.md",
       "branch": "main",
@@ -1268,6 +1461,9 @@
     {
       "name": "design-principles",
       "description": "Swiss International Style for Resume Matcher. Invoke ONLY when designing new UI components or modifying existing component styles.",
+      "content_fingerprint": "a81a91407e28604aaaf8930b798e2061cc1135e592d83fd5124b625afeb3b12b",
+      "license": "",
+      "author": "",
       "repo": "srbhr/Resume-Matcher",
       "path": ".claude/skills/design-principles/skill.md",
       "branch": "main",
@@ -1290,6 +1486,9 @@
     {
       "name": "langsmith-fetch-composiohq-awesome-claude-skil",
       "description": "Debug LangChain and LangGraph agents by fetching execution traces from LangSmith Studio. Use when debugging agent behavior, investigating errors, analyzing tool calls, checking memory operations, or e",
+      "content_fingerprint": "586bd958f82d0ce5852fcdc0a84cae260ed11a63c6972c7e5fe1424328e49912",
+      "license": "NOASSERTION",
+      "author": "ComposioHQ",
       "repo": "ComposioHQ/awesome-claude-skills",
       "path": "langsmith-fetch/SKILL.md",
       "branch": "main",
@@ -1312,6 +1511,9 @@
     {
       "name": "backend-patterns-affaan-m-everything-claude-cod",
       "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+      "content_fingerprint": "bb4fb9eb499db0612832802d5760e7b985d43126d3795db3ee12d3536d5114a8",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/backend-patterns/SKILL.md",
       "branch": "main",
@@ -1334,6 +1536,9 @@
     {
       "name": "clickhouse-io-affaan-m-everything-claude-cod",
       "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+      "content_fingerprint": "d4203aa46c3aebea4318d48bed88b7acc8075d23469b3953e8bc851e80de4f55",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/clickhouse-io/SKILL.md",
       "branch": "main",
@@ -1356,6 +1561,9 @@
     {
       "name": "coding-standards-affaan-m-everything-claude-cod",
       "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+      "content_fingerprint": "1947c70b7874fdc42cefcba12224855a2cacec246a65bc18bf6959520b318f23",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/coding-standards/SKILL.md",
       "branch": "main",
@@ -1378,6 +1586,9 @@
     {
       "name": "continuous-learning-affaan-m-everything-claude-cod",
       "description": "Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.",
+      "content_fingerprint": "8e0142e7bb6226856c603a51691e978f7a8dadefcbf01629c86a526c92fe0227",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/continuous-learning/SKILL.md",
       "branch": "main",
@@ -1400,6 +1611,9 @@
     {
       "name": "eval-harness-affaan-m-everything-claude-cod",
       "description": "A formal evaluation framework for Claude Code sessions, implementing eval-driven development (EDD) principles.",
+      "content_fingerprint": "fcc6062b001c506fcd1ba6c9519c9668df6de9202ad77643d1a092d27983f235",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/eval-harness/SKILL.md",
       "branch": "main",
@@ -1422,6 +1636,9 @@
     {
       "name": "frontend-patterns-affaan-m-everything-claude-cod",
       "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+      "content_fingerprint": "df13f13f314e1cd21fa027e8da8d23783783f82447d4a2eae6d60010af66207a",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/frontend-patterns/SKILL.md",
       "branch": "main",
@@ -1444,6 +1661,9 @@
     {
       "name": "project-guidelines-example-affaan-m-everything-claude-cod",
       "description": "This is an example of a project-specific skill. Use this as a template for your own projects.",
+      "content_fingerprint": "984f570ee1d1114dbfebab160f741e3a69b854439eb17d4b86addbef10d21464",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/project-guidelines-example/SKILL.md",
       "branch": "main",
@@ -1466,6 +1686,9 @@
     {
       "name": "security-review-affaan-m-everything-claude-cod",
       "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and",
+      "content_fingerprint": "5d9efbcf3dd35e1c8dc4d0b528dcec3ba6716d0c32b9b300a2fd128f5537f709",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/security-review/SKILL.md",
       "branch": "main",
@@ -1488,6 +1711,9 @@
     {
       "name": "strategic-compact-affaan-m-everything-claude-cod",
       "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.",
+      "content_fingerprint": "fd517290be154f3f5cf5507a614e97aabe609e1c40bcd71bc1564c8081a926b7",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/strategic-compact/SKILL.md",
       "branch": "main",
@@ -1510,6 +1736,9 @@
     {
       "name": "tdd-workflow-affaan-m-everything-claude-cod",
       "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.",
+      "content_fingerprint": "c6bedd35e45d253d2848d5d3609bdf57acd2b6e8bdb199e8903b4df3e8c467be",
+      "license": "MIT",
+      "author": "affaan-m",
       "repo": "affaan-m/everything-claude-code",
       "path": "skills/tdd-workflow/SKILL.md",
       "branch": "main",
@@ -1532,6 +1761,9 @@
     {
       "name": "docx",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (",
+      "content_fingerprint": "7eee71e65017526ff22a0f23e3413ccbd5be622ce67432e4c53cf11ef073d2b7",
+      "license": "",
+      "author": "",
       "repo": "anthropics/skills",
       "path": "skills/docx",
       "branch": "main",
@@ -1551,11 +1783,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/docx-a93291d92464/"
     },
     {
       "name": "internal-comms",
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal com",
+      "content_fingerprint": "3efad62c3b61e8d4dc4d088c94d10da54585b847878aa61c721f3d3177f7fe06",
+      "license": "",
+      "author": "",
       "repo": "anthropics/skills",
       "path": "skills/internal-comms",
       "branch": "main",
@@ -1576,11 +1812,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/internal-comms-75ef6b7c1d3a/"
     },
     {
       "name": "mcp-builder",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate externa",
+      "content_fingerprint": "9c749e86e79ce0704f1cec38c77f1999907d22abccc4f98b68b021fa3e0a79dd",
+      "license": "",
+      "author": "",
       "repo": "anthropics/skills",
       "path": "skills/mcp-builder",
       "branch": "main",
@@ -1599,11 +1839,15 @@
       "security_status": "passed",
       "install_status": "known_good",
       "trust_score": 100,
-      "compatible_agents": []
+      "compatible_agents": [],
+      "u": "skills/mcp-builder-db8848c33848/"
     },
     {
       "name": "pdf",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically p",
+      "content_fingerprint": "655951ca8c84617824368fe99062850c5cf60099b4618b0b94199a8a0ee983d5",
+      "license": "",
+      "author": "",
       "repo": "anthropics/skills",
       "path": "skills/pdf",
       "branch": "main",
@@ -1623,11 +1867,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/pdf-f479ff159899/"
     },
     {
       "name": "web-artifacts-builder",
       "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state manag",
+      "content_fingerprint": "e5e9f5de93043f045c5aa4c8cd55b499ac8ab78ddfdebb82f270c9f7f9167a36",
+      "license": "",
+      "author": "",
       "repo": "anthropics/skills",
       "path": "skills/web-artifacts-builder",
       "branch": "main",
@@ -1649,11 +1897,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/web-artifacts-builder-36ce2134fea0/"
     },
     {
       "name": "webapp-testing",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l",
+      "content_fingerprint": "830bd54146bc08d43e6fb986bd3a189490fb34c76109bc2d0bfa6a852e46ae53",
+      "license": "",
+      "author": "",
       "repo": "anthropics/skills",
       "path": "skills/webapp-testing",
       "branch": "main",
@@ -1672,11 +1924,15 @@
       "security_status": "passed",
       "install_status": "known_good",
       "trust_score": 100,
-      "compatible_agents": []
+      "compatible_agents": [],
+      "u": "skills/webapp-testing-d77a2080404e/"
     },
     {
       "name": "fetch-unresolved-comments",
       "description": "Fetch unresolved PR review comments using GitHub GraphQL API, filtering out resolved and outdated feedback.",
+      "content_fingerprint": "136b34e72279afbe90f187d447c271af154188862e9b2bb12b6c7544516dcdb3",
+      "license": "Apache-2.0",
+      "author": "mlflow",
       "repo": "mlflow/mlflow",
       "path": ".claude/skills/fetch-unresolved-comments",
       "branch": "master",
@@ -1703,6 +1959,9 @@
     {
       "name": "reviewing-code",
       "description": "Review code for quality, maintainability, and correctness. Use when reviewing pull requests, evaluating code changes, or providing feedback on implementations. Focuses on API design, patterns, and act",
+      "content_fingerprint": "5a9a687c9aa019ddf1888425da04ede78a90526f897e6b2804808044b4fe4264",
+      "license": "",
+      "author": "",
       "repo": "jlowin/fastmcp",
       "path": ".claude/skills/code-review/SKILL.md",
       "branch": "main",
@@ -1720,11 +1979,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/reviewing-code-3437d9a3d0b0/"
     },
     {
       "name": "ui-ux-pro-max-nextlevelbuilder-ui-ux-pro-max",
       "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, creat",
+      "content_fingerprint": "84702eb3b71d61a548d787d38b8922e0ffc9102d1902822f2166b3dd523733e3",
+      "license": "",
+      "author": "",
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
       "path": ".opencode/skills/ui-ux-pro-max/SKILL.md",
       "branch": "main",
@@ -1747,6 +2010,9 @@
     {
       "name": "agent-memory",
       "description": "Use this skill when the user asks to save, remember, recall, or organize memories. Triggers on: 'remember this', 'save this', 'note this', 'what did we discuss about...', 'check your notes', 'clean up",
+      "content_fingerprint": "1c0479a32d4feba0601335b751ca867c54c5680baeaeb9a9f580a8db31d85b9f",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": ".claude/skills/agent-memory/SKILL.md",
       "branch": "main",
@@ -1764,11 +2030,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/agent-memory-947af469fc85/"
     },
     {
       "name": "guide",
       "description": "Repomix bietet einen sofort einsatzbereiten Repomix Explorer Skill, der KI-Codierungsassistenten ermöglicht, Codebasen mit der Repomix CLI zu analysieren und zu erkunden.",
+      "content_fingerprint": "4fb76276985c6cdb15aedbb79a98ad4da8330110dbfa09c4a1ca2aad28213ed0",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/de/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1788,7 +2058,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "f00ad31babd1bfd190ed3afcfeda3339b123366dcd05806be623b0c9468b4dbf",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/en/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1811,7 +2084,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "4d9d5c290fd5b682c1f3ad7fdcd55a30cd7a9444832df490b79790c3a404b0ce",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/es/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1835,6 +2111,9 @@
     {
       "name": "guide",
       "description": "Repomix fournit un skill Repomix Explorer prêt à l'emploi qui permet aux assistants de codage IA d'analyser et d'explorer des bases de code en utilisant Repomix CLI.",
+      "content_fingerprint": "8971e240f8f854ec21c6ba009afdc568ce6f100646943f2e0ff6f131eb11089f",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/fr/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1854,7 +2133,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "9246e61170e6cd260f8167ef3726af9e6266a39aae8e6c4f6334e3637a921baa",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/hi/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1877,7 +2159,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "0d84d9494fec155e44faac6fc4e69381edb2d67e1a5e20f1a7a00de1d64f9ea7",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/id/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1900,7 +2185,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "34009ca6c4df6cea44cf56ed58982ac85610aa3630ae0fcbcac0b1149cc584df",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/it/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1923,7 +2211,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "16801773ecfcb994cce3b7d5c8977fb5d4de2b02aab8e185faad48e800a05171",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/ja/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1946,7 +2237,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "b82c727a3d1184db0cb22d96ee1b8ad2b081822e2cc75d325da38d8fac32d493",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/ko/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1969,7 +2263,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "0d20f0d26dfb535e59181fbda7143e7a1c8a1e8290b87af0ea24eafac49dcea2",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/pt-br/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -1992,7 +2289,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "13d03417afb45a2471c4b718538026263f790505a30a04a5a151172c4cdd7dc0",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/ru/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -2015,7 +2315,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "9186c1dd28d2a918b614dc16d724bd819f42d18b4785fa6725464573e8b0bcd1",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/vi/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -2038,7 +2341,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "8cd3afa503e59a8101e4c20100571e9418beec8c333c1707fdeb584f9bf0f448",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/zh-cn/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -2061,7 +2367,10 @@
     },
     {
       "name": "unknown",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools lik...",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "content_fingerprint": "2077fa6499be1ba8d058a7900537eb00f2eccd18bf78cfd7f568e2413b172b10",
+      "license": "NOASSERTION",
+      "author": "yamadashy",
       "repo": "yamadashy/repomix",
       "path": "website/client/src/zh-tw/guide/repomix-explorer-skill.md",
       "branch": "main",
@@ -2085,6 +2394,9 @@
     {
       "name": "agent-memory",
       "description": "Use this skill when the user asks to save, remember, recall, or organize memories. Triggers on: 'remember this', 'save this', 'note this', 'what did we discuss about...', 'check your notes', 'clean up",
+      "content_fingerprint": "5e02f6cb91f073949190a58eba9423acc5f6c5415d27dd1e2303557f588b7676",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": ".claude/skills/agent-memory",
       "branch": "main",
@@ -2110,6 +2422,9 @@
     {
       "name": "browser-extension-developer",
       "description": "Use this skill when developing or maintaining browser extension code in the `browser/` directory, including Chrome/Firefox/Edge compatibility, content scripts, background scripts, or i18n updates.",
+      "content_fingerprint": "ce4c56757ff066c52831c4fec28de9717f68c7d8402f4be0edf698a88159f652",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": ".claude/skills/browser-extension-developer",
       "branch": "main",
@@ -2136,6 +2451,9 @@
     {
       "name": "lint-fixer",
       "description": "Use this skill to run npm run lint and fix linting issues. Triggers on fixing lint errors after code changes or validating code against project style guidelines.",
+      "content_fingerprint": "461c94c6c8e00b94f6f6005409cfd91f91690ee9ec76ecc83c098ce4382b984d",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": ".claude/skills/lint-fixer",
       "branch": "main",
@@ -2156,11 +2474,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/lint-fixer-48787db4e427/"
     },
     {
       "name": "website-maintainer",
       "description": "Use this skill when working on the Repomix documentation website in `website/` directory, including VitePress configuration, multi-language content, or translation workflows.",
+      "content_fingerprint": "d1882db5c6b887e06880574f5ec43c25733ad568c8ce88d56f18aecd7ed541b6",
+      "license": "",
+      "author": "",
       "repo": "yamadashy/repomix",
       "path": ".claude/skills/website-maintainer",
       "branch": "main",
@@ -2186,6 +2508,9 @@
     {
       "name": "confidence-check",
       "description": "Pre-implementation confidence assessment (≥90% required). Use before starting any implementation to verify readiness with duplicate check, architecture compliance, official docs verification, OSS refe",
+      "content_fingerprint": "503a4c1946afeb1ae7ac611e383c0d87e02edd93ace1d860ec6548d034b9dc80",
+      "license": "MIT",
+      "author": "SuperClaude-Org",
       "repo": "SuperClaude-Org/SuperClaude_Framework",
       "path": ".claude/skills/confidence-check/SKILL.md",
       "branch": "main",
@@ -2203,11 +2528,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/confidence-check-2b20f431f3a0/"
     },
     {
       "name": "skill-developer",
       "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill a",
+      "content_fingerprint": "0cd4d77434086db00226bf8868c05c0752d0e486e13dd17aabf62816d886777d",
+      "license": "",
+      "author": "",
       "repo": "langfuse/langfuse",
       "path": ".claude/skills/skill-developer",
       "branch": "main",
@@ -2228,11 +2557,15 @@
       "trust_score": 100,
       "compatible_agents": [
         "Claude Code"
-      ]
+      ],
+      "u": "skills/skill-developer-481a31e911d2/"
     },
     {
       "name": "prd-github-awesome-copilot",
       "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.",
+      "content_fingerprint": "a4475723a07cde6487f1f2814d5665ad27c68b995b61c6b7277361f3f6bc41cf",
+      "license": "MIT",
+      "author": "github",
       "repo": "github/awesome-copilot",
       "path": "skills/prd/SKILL.md",
       "branch": "main",
@@ -2253,6 +2586,9 @@
     {
       "name": "webapp-testing-github-awesome-copilot",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l",
+      "content_fingerprint": "449631924f0b475df6038fce17ccc8807afd05fa55da1174df63f01bc12750a0",
+      "license": "MIT",
+      "author": "github",
       "repo": "github/awesome-copilot",
       "path": "skills/webapp-testing/SKILL.md",
       "branch": "main",
